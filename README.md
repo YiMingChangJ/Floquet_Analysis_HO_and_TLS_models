@@ -1,18 +1,7 @@
 # Floquet_Analysis_HO_and_TLS_models
-\section{The Floquet states analysis}\label{sec:Floquet}
-% \begin{equation}\label{eq: mechanical motion}
-%     \mathbf{R}_{1}(t) = \alpha_{\rm m}\sin(\omega_{\rm m}t+\phi_m){\mathbf{x}}+x_0{\mathbf{x}}.
-% \end{equation}
-In this section, we discuss a 
-method that allows one to
-obtain 
-analytical solutions to periodic linear differential equations,
-specifically, using 
-Floquet theory of quantum mechanical systems with a time-periodic Hamiltonian.
-This will allow us to 
-solve for the quasi-energy levels
-in the presence of  a periodic dipole
-term described from dipole spatial oscillation,
+The Floquet states analysis
+
+In this section, we discuss a method that allows one to obtain analytical solutions to periodic linear differential equations, specifically, using Floquet theory of quantum mechanical systems with a time-periodic Hamiltonian. This will allow us to solve for the quasi-energy levels in the presence of a periodic dipole term described from dipole spatial oscillation, 
 \begin{equation}\label{eq: mechanical motion}
     \mathbf{R}_{1}(t) = \alpha_{\rm m}\sin(\omega_{\rm m}t+\phi_m){\mathbf{x}}+x_0{\mathbf{x}}.
 \end{equation}
