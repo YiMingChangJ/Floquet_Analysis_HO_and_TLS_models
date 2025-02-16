@@ -1,11 +1,9 @@
-# Floquet_Analysis_HO_and_TLS_models
-
-\section{Floquet analysis of two-coupled TLSs}\label{sec:Floquet theory}
+# Floquet analysis of two-coupled TLSs
 
 In quantized few-state systems, there has been a significant focus on understanding the complex dynamics of quantum systems subjected to strong time-dependent external fields. The study of quantum mechanics involving explicit time-dependent Hamiltonians reveals a range of unique phenomena that are not observable within the area of stationary quantum mechanics. 
 In this section, we discuss a theoretical method that allows one to obtain analytical solutions to periodic linear differential equations, specifically, using Floquet theory of quantum mechanical systems with a time-periodic Hamiltonian. 
 
-\subsection[Time independent Hamiltonian for two TLS's]{Time independent Hamiltonian for two dipole-coupled two-level systems}\label{sec: time-indpt TLSs}
+## Time independent Hamiltonian for two TLS's
 
 In a quantum model, the free energy term of an atomic Hamiltonian describing two TLSs (`1' and `2') is 
 \begin{equation}\label{eq: atomic Hamiltonian}
