@@ -6,10 +6,10 @@ In this section, we discuss a theoretical method that allows one to obtain analy
 ## Time independent Hamiltonian for two TLS's
 
 In a quantum model, the free energy term of an atomic Hamiltonian describing two TLSs (`1' and `2') is 
-\begin{equation}\label{eq: atomic Hamiltonian}
+$$
     H_{\rm 0,TLSs} = \frac{\hbar\omega_0}{2}{\sigma}_{z,1} + \frac{\hbar\omega_0}{2}{\sigma}_{z,2},
-%    \frac{\hbar\omega_0}{2}(\ket{e}\bra{e}-\ket{g}\bra{g},
-\end{equation}
+   \frac{\hbar\omega_0}{2}(\ket{e}\bra{e}-\ket{g}\bra{g},
+$$
 where $\hbar\omega_0$ is the energy difference between excited and ground states (assumed to be the same for both TLSs), ${\sigma}_{z,i} ={\sigma}_i^+{\sigma}_i^- - {\sigma}_i^-{\sigma}_i^+$ 
 are Pauli matrices, and $\sigma^+_i=\ket{e_i}\bra{g_i}$ ($\sigma^-_i=\ket{g_i}\bra{e_i}$) describes the excitation (de-excitation) of the TLS,
 where $\ket{g_i}$ and $\ket{e_i}$ are the ground and excited states of TLS $i$.
