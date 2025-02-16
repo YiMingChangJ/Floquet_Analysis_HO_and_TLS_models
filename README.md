@@ -1,10 +1,14 @@
 # Floquet Analysis of Two-Coupled TLSs
 
+
+<p align="center">
+<img src="Energy_diagram_2LOs_with_mechanical_oscillation.png" alt="Description" width="800">
+</p>
+
 ## Introduction
 
-In quantized few-state systems, there has been a significant focus on understanding the complex dynamics of quantum systems subjected to strong time-dependent external fields. The study of quantum mechanics involving explicit time-dependent Hamiltonians reveals a range of unique phenomena that are not observable within the area of stationary quantum mechanics.
-
-In this section, we discuss a theoretical method that allows one to obtain analytical solutions to periodic linear differential equations, specifically using Floquet theory of quantum mechanical systems with a time-periodic Hamiltonian.
+In quantized few-state systems, there has been a significant focus on understanding the complex dynamics of quantum systems subjected to strong time-dependent external fields. The study of quantum mechanics involving explicit time-dependent Hamiltonians reveals a range of unique phenomena that are not observable within the area of stationary quantum mechanics. 
+In here, we discuss a theoretical method that allows one to obtain analytical solutions to periodic linear differential equations, specifically using Floquet theory of quantum mechanical systems with a time-periodic Hamiltonian.
 
 ## Time-Independent Hamiltonian for Two Dipole-Coupled Two-Level Systems
 
@@ -199,22 +203,6 @@ We can write the Hamiltonian matrix element as:
 
 ```math
 H_{\lambda\lambda'}(t) = E_\lambda \, \delta_{\lambda\lambda'} + A_{\lambda\lambda'} \left[ 3M(t) + 6M^2(t) + \dots \right],
-```
-
-
-Here is how you can format your content into a GitHub README using markdown syntax:
-
-```markdown
-# Fourier Approach with Dressed Operator for Two Coupled Two-Level Systems
-
-Next, we transform the time-dependent periodic problem to a time-independent one by inserting the equation for the Full Hamiltonian of TLS into the Floquet Hamiltonian matrix representation, which can be solved by a Fourier approach with a finite Floquet matrix. The size of the matrix is $N_F \times N_F$, where $N_F$ is equal to the multiplication of the truncation number $N_l=2l_{\rm max}+1$ times the number of total energy states $N_\lambda$. The time-independent Hamiltonian can be diagonalized into a set of basis $\{E_\lambda,\ket{\phi_\lambda}\}$ ($H_0'\ket{\phi_\lambda} = E_\lambda\ket{\phi_\lambda}$).
-
-### Hamiltonian Matrix Element
-
-We can write the Hamiltonian matrix element as:
-
-```math
-H_{\lambda\lambda'}(t)=E_\lambda\,\delta_{\lambda\lambda'}+A_{\lambda\lambda'}\left[ 3M(t)+6M^2(t)+...\right],
 ```
 
 where $\ket{\phi_\lambda} = \ket{\alpha}\otimes\ket{\beta}$ and $A_{\lambda\lambda'}= \hbar g_{12}\braket{\phi_\lambda|\sigma_{x,1}\sigma_{x,2}|\phi_{\lambda'}}$ is the matrix element of the Hermitian system operator. To help ensure we have the correct states to mechanically perturb, we dress these two operators $\sigma_{x,1}$ and $\sigma_{x,2}$ with the static interaction terms of the system, namely $\braket{\phi_\lambda|\sigma_{x,j}|\phi_{\lambda'}}$. Then, we project these operators in the new basis to obtain the new atom operator:
